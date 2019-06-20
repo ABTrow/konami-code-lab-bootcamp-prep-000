@@ -26,5 +26,5 @@ function codeTest(e) {
 }
 
 function init() {
-  
+  window.addEventListener("keydown", codeTest);
 }
