@@ -26,7 +26,7 @@ function codeTest(e) {
 }
 
 function init() {
-  window.addEventListener("keydown", codeTest);
+  document.body.addEventListener("keydown", codeTest);
 }
 
 init();
